@@ -1,6 +1,6 @@
 // Frontend API service layer communicating with FastAPI backend
 
-const API_BASE = '/api';
+const API_BASE = import.meta.env.VITE_API_BASE || '/api';
 const TOKEN_KEY = 'lifeos_token';
 const ALT_TOKEN_KEY = 'lifeos_auth_token';
 const USER_KEY = 'lifeos_user';
