@@ -1,0 +1,180 @@
+{
+  "users": [
+    {
+      "id": "user-cf7fab67",
+      "name": "Test User",
+      "email": "test@test.com",
+      "password_hash": "261bdafd6b667f08eb50bb262c09457377daa18806bc29fde6d4a43c3e6c0c4c",
+      "salt": "a3c18d6936e4d297befa1ec50f82739b",
+      "createdAt": "2026-10-04T23:25:42.026332",
+      "user": {
+        "name": "Test User",
+        "college": "Engineering College",
+        "course": "B.Tech AI / Computer Science",
+        "onboarded": false
+      },
+      "routine": {
+        "wakeTime": "07:00",
+        "sleepTime": "23:00",
+        "collegeStart": "09:00",
+        "collegeEnd": "16:00",
+        "studyHours": 3,
+        "breakPreference": "15 mins per 45 mins",
+        "preferredSubjects": []
+      },
+      "settings": {
+        "workingDays": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "onboardingCompleted": true
+      },
+      "tasks": [
+        {
+          "id": "47909fff",
+          "user_id": "user-cf7fab67",
+          "title": "Complete DBMS Assignment 1",
+          "deadline": "",
+          "priority": "medium",
+          "subject": "Database Management",
+          "description": "Solve questions 1 through 5 on normalization.",
+          "completed": false,
+          "createdAt": "2026-10-04T23:46:03.698411"
+        }
+      ],
+      "subjects": [],
+      "events": [
+        {
+          "id": "event-61124ccf",
+          "user_id": "user-cf7fab67",
+          "title": "My Plan",
+          "date": "2026-10-04",
+          "startTime": "18:00",
+          "endTime": "19:00",
+          "isAllDay": false,
+          "type": "work",
+          "description": "Scheduled via AI Agent",
+          "source": "ai"
+        },
+        {
+          "id": "event-5bc2ea52",
+          "user_id": "user-cf7fab67",
+          "title": "My Plan",
+          "date": "2026-10-05",
+          "startTime": "18:00",
+          "endTime": "19:00",
+          "isAllDay": false,
+          "type": "work",
+          "description": "Scheduled via AI Agent",
+          "source": "ai"
+        }
+      ],
+      "goals": [],
+      "documents": [],
+      "activity": [
+        {
+          "id": "1e00a53e",
+          "action": "create_calendar_event",
+          "details": "Scheduled 'My Plan' on 2026-10-05",
+          "timestamp": "2026-10-05T00:07:02.809736"
+        },
+        {
+          "id": "e53649e5",
+          "action": "create_calendar_event",
+          "details": "Scheduled 'My Plan' on 2026-10-04",
+          "timestamp": "2026-10-04T23:50:33.442577"
+        },
+        {
+          "id": "1c03c75c",
+          "action": "add_task",
+          "details": "Added task 'Complete DBMS Assignment 1'",
+          "timestamp": "2026-10-04T23:46:03.704400"
+        }
+      ],
+      "holidays": []
+    },
+    {
+      "id": "user-3820e364",
+      "name": "Eswar",
+      "email": "chowdam.eswar07@gmail.com",
+      "password_hash": "5ff080ab6a0bc327c0afa1eb9e7d7bf44806b546036b5ecd4b26391e3b23d8a4",
+      "salt": "39b1fda843066d9712f61bc59969a683",
+      "createdAt": "2026-10-05T00:10:51.865081",
+      "user": {
+        "name": "Eswar",
+        "college": "Aurora",
+        "course": "B.Tech AI / Computer Science",
+        "onboarded": false
+      },
+      "routine": {
+        "wakeTime": "07:00",
+        "sleepTime": "23:00",
+        "collegeStart": "09:00",
+        "collegeEnd": "16:00",
+        "studyHours": 3,
+        "breakPreference": "15 mins per 45 mins",
+        "preferredSubjects": []
+      },
+      "settings": {
+        "workingDays": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "onboardingCompleted": true
+      },
+      "tasks": [],
+      "subjects": [],
+      "events": [],
+      "goals": [],
+      "documents": [
+        {
+          "id": "5f4bd96a",
+          "user_id": "user-3820e364",
+          "filename": "case_study.pdf",
+          "name": "case_study.pdf",
+          "file_type": "pdf",
+          "fileType": "PDF",
+          "size_bytes": 191450,
+          "fileSize": 191450,
+          "uploaded_at": "2026-10-05T00:11:23.076975",
+          "uploadDate": "2026-10-05T00:11:23.076975",
+          "filePath": "C:\\Users\\chowd\\Documents\\varun\\Fai project Final (2)\\Fai project Final\\backend\\data\\documents\\5f4bd96a_case_study.pdf",
+          "textSnippet": "Student Name CHOWDAM ESWAR \nStudent Registration Number 252U1R6052 Class &Section: AIML-2A-203 \nStudy Level : UG/PG UG Year &Term: 2 & I \nSubject Name Fundamentals of Artificial Intelligence \n \nName of the Assessment Case Study \nDate of Submission 22 – 09 – 2026  \n \nTitle of Research Paper: A Survey on NoSQL Stores \nAuthors: Ali Davoudian, Liu Chen, and Mengchi \nLiu \nJournal Name & Volume/Issue: ACM Computing Surveys, Vol. 51, No. 2, \nArticle 40 (43 pages) \nYear of Publication: 2018 \nDOI / URL: https://doi.org/10.1145/3158661  \nDate of Review Submission: 22 September 2026 \n1. Concrete Experience \nA. Summary of the Paper \n“A Survey on NoSQL Stores” by Davoudian, Chen, and Liu (2018) addresses the \ndifficulties that traditional relational database management systems (RDBMS) face when \nhandling the scale, velocity, and variety of data generated by modern web, mobile, and \ncloud applications. The authors explain that the rigid, predefined schema of relational \nsystems makes them costly to evolve, difficult to scale horizontally across commodity \nservers, and prone to availability problems when distributed ACID transactions are used \nacross many nodes (Davoudian et al., 2018). These limitations gave rise to NoSQL ( “Not \nOnly SQL”) stores, a newer generation of database technology designed to give web-scale \napplications the high availability, horizontal scalability, and flexible, schema -less data \nhandling that RDBMSs struggle to provide. \nThe purpose of the survey is not to declare NoSQL a replacement for relational databases, \nbut to organize the large and fragmented landscape of NoSQL systems around four \nfundamental, non-orthogonal design decisions that every distributed data store must make: \nthe data model used to represent information, the consistency model used to coordinate \nreplicas, the strategy used to partition data across nodes, and the trade -offs described by \nthe CAP theorem. For each of these four design dimensions the authors cla ssify the \navailable strategies, describe their strengths and drawbacks, and illustrate them using real \nacademic and industrial systems such as Amazon Dynamo, Google Bigtable, Apache \nCassandra, MongoDB, and Neo4j. \nThe scope of the paper is broad, covering key -value, wide-column, document, and graph \ndata models; consistency models ranging from strong linearizability to eventual and causal \nconsistency; static and workload -aware partitioning strategies; and the CAP/PAC ELC \ntrade-offs that shape how distributed stores are engineered. The paper closes by identifying \nopen research challenges that the NoSQL community still needs to address, making it a \nuseful reference point for anyone choosing or designing a data store for a large -scale \napplication. \nB. Key Findings \n• NoSQL stores share common characteristics: schema -less or flexible data models, \nrelaxed (weak) consistency in place of strict ACID guarantees, heavy use of data \nduplication and “aggregates” to avoid costly joins, and designs that are cluster - and \ndatacenter-friendly for horizontal scaling (Davoudian et al., 2018). \n• Four main NoSQL data models exist (key-value, wide-column, document, and graph), \neach suited to different access patterns; for example, key -value stores fit single -key \nlookups while graph stores fit deeply connected data. \n• Consistency models range from strong guarantees such as linearizability and \nserializability to weaker models such as eventual consistency, causal consistency, and \nper-object timeline consistency; weaker models trade strict correctness for lower \nlatency and higher availability. \n• Data partitioning can be key -oriented (range -based, simple hashing, consistent \nhashing, hyperspace hashing) or traversal -oriented for graphs, and can be static or \nworkload-aware to correct load imbalance across nodes. \n• The CAP theorem shows that a distributed store can guarantee at most two of \nConsistency, Availability, and Partition tolerance at once; because network partitions \ncannot be avoided in practice, most NoSQL stores are designed to sacrifice strict \nconsistency (AP systems) or availability during a partition (CP systems). • NoSQL stores gain scalability and flexibility at a cost: most lack a standard query \nlanguage, offer limited support for multi-key transactions, and shift more responsibility \nfor data modeling and consistency handling onto the application developer. \nC. Techniques / Research Approach Used \n“A Survey on NoSQL Stores” is a survey and taxonomy paper rather than an experimental \nor empirical study. Davoudian et al. (2018) do not run new experiments or benchmarks of \ntheir own; instead, they synthesize and organize existing research and system \ndocumentation. Their method is to identify four foundational, non -orthogonal design \ndimensions of distributed data stores and, for each dimension, build a classification of the \nstrategies used in practice. They then select a representative set of academic systems (e.g., \nAmazon Dynamo, Scalaris, Spinnaker) and industrial systems (e.g., Cassandra, MongoDB, \nNeo4j, Google Bigtable) to exemplify each strategy, describing how a real system \nimplements it and what trade -offs result. Throughout, the authors combine text ual \nexplanation with conceptual diagrams (such as data -model illustrations and architecture \nfigures) and comparison tables that summarize the strengths, limitations, and representative \nsystems for each category. This qualitative, taxonomy-driven approach suits a fast-moving \nand fragmented field such as NoSQL, where the goal is to give readers a structured mental \nmodel rather than a numerical performance comparison. \nD. Figures / Data Found Most Interesting \nBecause the paper does not present an original experimental dataset, the most useful \nelements are its classification tables and conceptual diagrams rather than empirical figures. \nTable 2, “Comparison of NoSQL Data Models,” is especially useful because it lines up the \nfit scenarios, strengths, and limitations of key -value, wide-column, document, and graph \nstores side by side, making it easy to reason about which model suits which application. \nFigure 2, which shows how Facebook’s Inbox Search, McGraw-Hill Education’s learning \nportal, and Facebook’s social graph actually used the wide -column, document, and graph \ndata models respectively, is also valuable because it grounds the abstract data -model \ndiscussion in real production use cases. Table 5, which categorizes representative NoSQL \nstores according to which CAP guarantee they sacrifice, gives a concrete way to connect \nthe abstract CAP theorem to specific, well-known systems such as Cassandra, MongoDB, \nand Google Bigtable (Davoudian et al., 2018). \n2. Reflective Observation \nA. Personal Reflection \nThe part of the paper I found most interesting was the discussion of the CAP theorem and \nthe more practical PACELC framework it references (Davoudian et al., 2018). Before \nreading this survey, I understood the CAP theorem only in its simplified textbook fo rm: a \nsystem can be consistent, available, or partition tolerant, but not all three at once. What \nsurprised me was learning that “availability” and “consistency” have precise, almost \nidealized definitions in CAP that do not always match how available or consistent a system \nfeels in practice, and that many real systems, such as Yahoo Pnuts and Google Bigtable, \ncannot be placed cleanly into a single CAP category because they offer different guarantees \nfor different types of operations. Reading this survey expanded my understanding of NoSQL databases considerably. Before \nthe reading, I thought of “NoSQL” mainly as “databases that don’t use tables,” associated \nchiefly with document stores such as MongoDB. The paper made clear that NoSQL is  \nreally an umbrella term covering four quite different data models (key-value, wide-column, \ndocument, and graph), each with its own strengths, and that the choice of consistency \nmodel and partitioning strategy matte",
+          "extractedLength": 22678,
+          "status": "ready"
+        }
+      ],
+      "activity": [
+        {
+          "id": "fe03a79e",
+          "action": "upload_document",
+          "details": "Uploaded case_study.pdf",
+          "timestamp": "2026-10-05T00:11:23.080976"
+        }
+      ],
+      "holidays": []
+    }
+  ],
+  "sessions": {
+    "3fc1daa90cc4611478214587f127a249459e0202b826487d": {
+      "user_id": "user-cf7fab67",
+      "expiry": "2026-10-11T23:25:42.028346"
+    },
+    "8214fa666922b62ab17d836c8037a73cd5ab785d0ffa43f1": {
+      "user_id": "user-cf7fab67",
+      "expiry": "2026-10-11T23:54:44.136916"
+    },
+    "8babc5a8a93844b85b63d1b22473bcd4a456c53d3b51b75f": {
+      "user_id": "user-3820e364",
+      "expiry": "2026-10-12T00:11:54.133459"
+    }
+  }
+}
